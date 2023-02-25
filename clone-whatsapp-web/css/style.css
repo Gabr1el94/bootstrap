@@ -53,3 +53,7 @@ body {background-color: #d6dbd9; position: relative;}
     background-color: #e4e1de;
     min-height: 600px;
 }
+
+.row.message-box.p-3 {
+    border-top: 2px solid #fff;
+}
