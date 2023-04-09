@@ -1,65 +1,65 @@
-*{
+* {
     font-family: 'Montserrat', sans-serif;
 }
 
-body{
+body {
     background-color: #252525 !important;
     color: #fff;
 }
 
-.primary-bg-color{
+.primary-bg-color {
     background-color: #252525;
 }
 
-.secondary-bg-color{
+.secondary-bg-color {
     background-color: #C09578;
 }
 
-.light-bg-color{
+.light-bg-color {
     background-color: #FCF5EB;
 }
 
-.dark-bg-color{
+.dark-bg-color {
     background-color: #101010;
 }
 
-.primary-color{
+.primary-color {
     color: #C09578;
 }
 
-.secondary-color{
+.secondary-color {
     color: #626262;
 }
 
-.light-color{
-    color: #626262;
+.light-color {
+    color: #FCF5EB;
 }
 
 /*  Navbar */
 
-#navbar .navbar-nav{
+#navbar .navbar-nav {
     flex-direction: row;
     justify-content: end;
 }
 
-#navbar .navbar-nav li{
+#navbar .navbar-nav li {
     margin-left: 1em;
 }
 
 #navbar a,
-#navbar button{
+#navbar button {
     color: #fff;
 }
 
-#navbar li{
+#navbar li {
     position: relative;
 }
 
-#navbar i{
+#navbar i {
     font-size: 20px;
 }
 
-#navbar span{
+#navbar span {
     position: absolute;
     top: -8px;
     right: -8px;
@@ -70,28 +70,28 @@ body{
     text-align: center;
 }
 
-#bag-item span{
+#bag-item span {
     left: 20px;
 }
 
-.navbar-brand{
+.navbar-brand {
     font-weight: 700;
     width: 100%;
     text-align: center;
 }
 
-@media(min-width:768px){
-    .navbar-brand{
+@media(min-width:768px) {
+    .navbar-brand {
         text-align: left;
     }
 }
 
-#navbar-items{
-    justify-content:  space-between;
+#navbar-items {
+    justify-content: space-between;
 }
 
-@media(min-width:768px){
-    #navbar-items{
+@media(min-width:768px) {
+    #navbar-items {
         min-width: 80%;
         display: flex;
     }
@@ -102,86 +102,87 @@ body{
     margin: 2em 0;
 }
 
-@media(min-width:768px){
-    #search-form{
+@media(min-width:768px) {
+    #search-form {
         width: 50%;
         margin: 0;
     }
 }
 
-#search-form{
+#search-form {
     border: 2px solid #626262;
     border-radius: 3px;
     padding: 5px 15px;
 }
 
-#search-form input{
+#search-form input {
     background-color: transparent;
     border: none;
     color: #fff;
 }
 
-#search-form input:focus{
+#search-form input:focus {
     box-shadow: none;
 }
 
-#search-form input::placeholder{
+#search-form input::placeholder {
     color: #fff;
 }
 
 /*BOTTOM NAVBAR*/
-#bottom-navbar-container .container{
+#bottom-navbar-container .container {
     justify-content: flex-end;
 }
 
-#bottom-navbar-container a{
+#bottom-navbar-container a {
     font-weight: 600;
     color: #fff;
 }
 
-.navbar-toggler{
+.navbar-toggler {
     font-size: 1.5em;
 }
 
 /*  TOP BANNER */
-#banners-container{
-    padding:0;
+#banners-container {
+    padding: 0;
 }
 
-.carousel-caption{
-    bottom:5em;
+.carousel-caption {
+    bottom: 5em;
     padding: 1em;
     left: 12%;
     right: 12%;
 }
 
-.carousel-caption h5{
+.carousel-caption h5 {
     font-size: 1.8em;
 }
 
-@media(min-width:768px){
+@media(min-width:768px) {
+
     #slider .carousel-item,
-    #slider img{
-        height:600px;
+    #slider img {
+        height: 600px;
     }
 
-    .carousel-caption{
-        left:23%;
+    .carousel-caption {
+        left: 23%;
         right: 23%;
     }
 
-    .carousel-caption h5{
+    .carousel-caption h5 {
         font-size: 4em;
-    }   
+    }
 }
 
 /*MINI BANNERS*/
-#mini-banners{
-    margin-top:-3em;
+#mini-banners {
+    margin-top: -3em;
     z-index: 10;
 }
 
-#mini-banners .col-12{
+#mini-banners .col-12 {
     z-index: 1;
     height: 300px;
     padding: 1.5em;
@@ -191,13 +192,13 @@ body{
     justify-content: space-between;
 }
 
-@media(min-width: 768px){
-    #mini-banners .col-12{
+@media(min-width: 768px) {
+    #mini-banners .col-12 {
         max-width: 30%;
     }
 }
 
-#mini-banners .col-12 h2{
+#mini-banners .col-12 h2 {
     text-transform: uppercase;
     max-width: 50px;
     font-size: 2.2em;
@@ -205,96 +206,127 @@ body{
     line-height: 1em;
 }
 
-#mini-banners .col-12 img{
+#mini-banners .col-12 img {
     height: 220px;
     position: absolute;
     right: 1rem;
     bottom: 1rem;
 }
 
-#mini-banners .col-12 a{
+#mini-banners .col-12 a {
     font-weight: bold;
     color: #fff;
     font-size: .8rem;
     transition: .5s;
 }
 
-#mini-banners .col-12 a:hover{
+#mini-banners .col-12 a:hover {
     color: #101010;
 }
 
-#mini-banners #mini-banner-1 h2{
+#mini-banners #mini-banner-1 h2 {
     color: #fff;
 }
 
 #mini-banners #mini-banner-1 a:hover,
-#mini-banners #mini-banner-3 a:hover{
+#mini-banners #mini-banner-3 a:hover {
     color: #c09578;
 }
 
-#mini-banners #mini-banner-3 a{
+#mini-banners #mini-banner-3 a {
     color: #101010;
 }
 
 /* BEST SELLERS */
 #best-sellers {
     padding: 4em 0;
-  }
-  
-  #best-sellers .row {
+}
+
+#best-sellers .row {
     margin: 0;
-  }
-  
-  #best-sellers .col-md-3 {
+}
+
+#best-sellers .col-md-3 {
     padding: 0;
-  }
-  
-  .title {
+}
+
+.title {
     text-transform: uppercase;
     font-weight: 900;
     font-size: 2.5em;
     margin-bottom: 1em;
     text-align: center;
-  }
-  
-  @media(min-width: 768px) {
+}
+
+@media(min-width: 768px) {
     .title {
-      text-align: left;
+        text-align: left;
     }
-  }
-  
-  .card {
+}
+
+.card {
     text-align: center;
     border-radius: 0;
     background-color: transparent !important;
     color: #fff !important;
-  }
-  
-  p.card-category.secondary-color{
+}
+
+p.card-category.secondary-color {
     color: #fff !important;
     font-weight: bold !important;
-  }
+}
 
-  .card img {
+.card img {
     width: 140px;
     margin: 2em auto;
-  }
-  
-  .card .card-category {
+}
+
+.card .card-category {
     font-size: .8rem;
-  }
-  
-  .card .card-text {
+}
+
+.card .card-text {
     margin: 2em 0;
     font-weight: bold;
-  }
-  
-  .btn {
+}
+
+.btn {
     background-color: transparent !important;
     border-color: #C09578 !important;
-  }
-  
-  .btn:hover {
+}
+
+.btn:hover {
     background-color: #C09578 !important;
     border-color: #C09578 !important;
-  }
+}
+
+/* BOTTOM BANNER */
+
+#bottom-banner {
+    background-color: #101010;
+    padding: 6em;
+    margin-bottom: 4em;
+    text-align: center;
+}
+
+#bottom-banner .offer-subtitle,
+#bottom-banner h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#bottom-banner .btn {
+    margin: 2em;
+    font-weight: bold;
+    padding: 1em;
+}
+
+#bottom-banner img {
+    max-width: 175px;
+}
+
+@media (min-width: 768px) {
+    #bottom-banner h2 {
+        font-size: 6em;
+    }
+}
